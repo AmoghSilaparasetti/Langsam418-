@@ -5690,6 +5690,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 889896653}
+  - component: {fileID: 889896654}
   m_Layer: 0
   m_Name: Layouts Group
   m_TagString: Untagged
@@ -5716,6 +5717,21 @@ Transform:
   - {fileID: 92796971}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &889896654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889896652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9672e8131bf1c244b0e5b208bd02acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::layoutManager
+  layouts: []
+  activeLayout: -1
+  cycleLayoutAction: {fileID: 1551600289}
 --- !u!1001 &917946601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9286,6 +9302,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7190678df2c126c458317a1703957591, type: 3}
   m_PrefabInstance: {fileID: 1523114570}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1551600289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: Player/Jump
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_ActionId: f1ba0d36-48eb-4cd5-b651-1c94a6531f70
 --- !u!1001 &1566853553
 PrefabInstance:
   m_ObjectHideFlags: 0
