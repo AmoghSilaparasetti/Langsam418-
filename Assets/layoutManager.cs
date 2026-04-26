@@ -7,6 +7,8 @@ using UnityEngine.InputSystem;
 public class layoutManager : MonoBehaviour
 {
     [SerializeField] List<GameObject> layouts;
+    [SerializeField] List<GameObject> layoutImages;
+    [SerializeField] GameObject screen;
     [SerializeField] int activeLayout = -1;
     bool canUpdate = true;
 
@@ -15,10 +17,13 @@ public class layoutManager : MonoBehaviour
 
     private void Awake()
     {
-        // Find all GameObjects with the "Layout" tag and store them in the array
         foreach(Transform child in transform)
         {
             layouts.Add(child.gameObject);
+        }
+        foreach(Transform child in screen.transform)
+        {
+            layoutImages.Add(child.gameObject);
         }
     }
 
@@ -38,7 +43,7 @@ public class layoutManager : MonoBehaviour
 
     private void OnButtonPressed(InputAction.CallbackContext context)
     {
-        activeLayout = (activeLayout + 1) % layouts.Count;
+        activeLayout = (activeLayout + 1) % (layouts.Count + 1);
             canUpdate = false;
 
             for (int i = 0; i < layouts.Count; i++)
@@ -46,10 +51,12 @@ public class layoutManager : MonoBehaviour
                 if (i == activeLayout)
                 {
                     layouts[i].SetActive(true);
+                    layoutImages[i].SetActive(true);
                 }
                 else
                 {
                     layouts[i].SetActive(false);
+                    layoutImages[i].SetActive(false);
                 }  
             }
     }
