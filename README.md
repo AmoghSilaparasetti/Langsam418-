@@ -1,5 +1,7 @@
 # CS 5136 Project 2: Langsam 418 VR Simulator 
 
+Amogh Silaparasetti, Jonah Carter, Anne Ning, Soham Vakani 
+
 ## Motivation
 
 The primary objective of this application is to provide an immersive, interactive VR experience of Langsam 418. By recreating this specific environment in a virtual space, stakeholders can test and iterate upon various room arrangements without the physical labor, cost, or time constraints associated with moving heavy furniture. This tool serves as both a spatial preview and a functional utility for interior planning and classroom optimization.
@@ -70,6 +72,9 @@ One of our primary hurdles was the discrepancy between documentation and impleme
 
 - Watch a demonstration of the Langsam 418 VR Simulator below. This video includes a voiceover walkthrough of the room, a preview of the different layout designs, and a look at the locomotion system in action along with the props we have designed. 
 
+<video src="Assets/demo_video_projct2.mp4" width="100%" controls>
+  Your browser does not support the video tag.
+</video>
 
 
 
