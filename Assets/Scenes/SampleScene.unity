@@ -514,6 +514,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Amogh
       objectReference: {fileID: 0}
+    - target: {fileID: 4712584593633386017, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: Dialouges.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712584593633386017, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: 'Dialouges.Array.data[0]'
+      value: I see you can change layouts now!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712584593633386017, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: 'Dialouges.Array.data[1]'
+      value: This layout is more traditional one
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -522,6 +534,11 @@ PrefabInstance:
 --- !u!4 &41745848 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 185497708396373033, guid: 22cd52db08762344198c5934127688ac, type: 3}
+  m_PrefabInstance: {fileID: 41745847}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &41745849 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 9026097623736179637, guid: 22cd52db08762344198c5934127688ac, type: 3}
   m_PrefabInstance: {fileID: 41745847}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &86202650
@@ -1974,6 +1991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 314313030}
   - component: {fileID: 314313031}
+  - component: {fileID: 314313032}
   m_Layer: 0
   m_Name: LeftEyeAnchor
   m_TagString: MainCamera
@@ -2047,6 +2065,50 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &314313032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314313029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1001 &340435510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2785,6 +2847,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Amogh
       objectReference: {fileID: 0}
+    - target: {fileID: 4712584593633386017, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: Dialouges.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712584593633386017, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: 'Dialouges.Array.data[0]'
+      value: This layout is effective for working with others!
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2847,16 +2917,57 @@ PrefabInstance:
       propertyPath: m_Name
       value: Amogh
       objectReference: {fileID: 0}
+    - target: {fileID: 4712584593633386017, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: Dialouges.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712584593633386017, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: 'Dialouges.Array.data[0]'
+      value: Hi, I'm Amogh. Sorry I'm bit busy.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712584593633386017, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: 'Dialouges.Array.data[1]'
+      value: If you need a guide, reach out to Jonah.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712584593633386017, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: 'Dialouges.Array.data[2]'
+      value: He is near the screen.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9026097623736179637, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 709551696928128659, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 565130502}
   m_SourcePrefab: {fileID: 100100000, guid: 22cd52db08762344198c5934127688ac, type: 3}
+--- !u!1 &565130500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 709551696928128659, guid: 22cd52db08762344198c5934127688ac, type: 3}
+  m_PrefabInstance: {fileID: 565130499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &565130501 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 185497708396373033, guid: 22cd52db08762344198c5934127688ac, type: 3}
   m_PrefabInstance: {fileID: 565130499}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &565130502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565130500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2140d2b457bea84881488302059889b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.Surfaces.ColliderSurface
+  _collider: {fileID: 41745849}
 --- !u!1001 &612948644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5599,6 +5710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1172211708}
   - component: {fileID: 1172211709}
+  - component: {fileID: 1172211710}
   m_Layer: 0
   m_Name: RightEyeAnchor
   m_TagString: Untagged
@@ -5672,6 +5784,50 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1172211710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172211707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1001 &1177562860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10073,6 +10229,7 @@ GameObject:
   - component: {fileID: 1914645921}
   - component: {fileID: 1914645923}
   - component: {fileID: 1914645922}
+  - component: {fileID: 1914645924}
   m_Layer: 0
   m_Name: CenterEyeAnchor
   m_TagString: MainCamera
@@ -10154,6 +10311,50 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914645920}
   m_Enabled: 1
+--- !u!114 &1914645924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914645920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1001 &1930814657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11049,7 +11250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2087585068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11342,6 +11543,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Amogh
       objectReference: {fileID: 0}
+    - target: {fileID: 4418208066355344329, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.0263796
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418208066355344329, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.31067348
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418208066355344329, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.03094694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418208066355344329, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.9995211
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418208066355344329, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418208066355344329, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418208066355344329, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 183.547
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712584593633386017, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: Dialouges.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4712584593633386017, guid: 22cd52db08762344198c5934127688ac, type: 3}
+      propertyPath: 'Dialouges.Array.data[0]'
+      value: Even if things are upside down, That won't stop me!
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11559,6 +11796,18 @@ PrefabInstance:
     - target: {fileID: 4291034957034944432, guid: 3d1785967b50a9e47bd3767f920f6b6b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085719579290345360, guid: 3d1785967b50a9e47bd3767f920f6b6b, type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085719579290345360, guid: 3d1785967b50a9e47bd3767f920f6b6b, type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8085719579290345360, guid: 3d1785967b50a9e47bd3767f920f6b6b, type: 3}
+      propertyPath: _whenUnselect.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
