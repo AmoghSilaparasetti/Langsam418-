@@ -13,10 +13,15 @@ The virtual environment is a high-fidelity recreation of the Langsam 418 space, 
 - **Custom Furniture**: The tables and chairs were custom-modeled in Blender by team member Jonah to ensure they accurately reflect the specific dimensions and aesthetics of the actual room.
 
 - **Human Scale Models**: To provide a sense of occupancy and scale, human models were generated using the MPFB (MakeHuman Plugin for Blender) asset library.
+<img width="501" height="256" alt="VR_HumanModel" src="https://github.com/user-attachments/assets/bee34867-d580-46bd-9049-a097476ed9e8"/>
 
 - **Prop & Detail Assets**: To enhance immersion, everyday items such as backpacks and peripheral props were sourced from community repositories including SketchFab and Thingiverse.
 
 - **Interface Elements**: The information boards and screens that display layout data utilize SVG assets designed in Figma for crisp, scalable visual fidelity within the Unity engine.
+<img width="501" height="256" alt="VR_documentation_Photo" src="https://github.com/user-attachments/assets/1900192a-d608-4dcc-b2d2-b981b6bbdf4c" />
+
+<img width="501" height="256" alt="VR_HumanModel" src="https://github.com/user-attachments/assets/26f6416f-1647-44de-829e-4f16350ee7e5" />
+
 
 ### Visual Elements
 
