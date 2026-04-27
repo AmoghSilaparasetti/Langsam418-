@@ -72,7 +72,7 @@ One of our primary hurdles was the discrepancy between documentation and impleme
 
 - Watch a demonstration of the Langsam 418 VR Simulator below. This video includes a voiceover walkthrough of the room, a preview of the different layout designs, and a look at the locomotion system in action along with the props we have designed. 
 
-<video src="Assets/demo_video_projct2.mp4" width="100%" controls>
+<video src="Assets/demo_video_project2.mp4" width="100%" controls>
   Your browser does not support the video tag.
 </video>
 
