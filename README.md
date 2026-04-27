@@ -24,7 +24,7 @@ The virtual environment is a high-fidelity recreation of the Langsam 418 space, 
 - **Interface Elements**: The information boards and screens that display layout data utilize SVG assets designed in Figma for crisp, scalable visual fidelity within the Unity engine.
 <img width="501" height="256" alt="VR_documentation_Photo" src="https://github.com/user-attachments/assets/1900192a-d608-4dcc-b2d2-b981b6bbdf4c" />
 
-<img width="501" height="256" alt="VR_HumanModel" src="https://github.com/user-attachments/assets/26f6416f-1647-44de-829e-4f16350ee7e5" />
+<img width="501" height="256" alt="vr_documentation_image4" src="https://github.com/user-attachments/assets/4d83629b-2bfd-4607-9371-52350a122d62" />
 
 
 ### Visual Elements
@@ -72,10 +72,7 @@ One of our primary hurdles was the discrepancy between documentation and impleme
 
 - Watch a demonstration of the Langsam 418 VR Simulator below. This video includes a voiceover walkthrough of the room, a preview of the different layout designs, and a look at the locomotion system in action along with the props we have designed. 
 
-<video src="Assets/demo_video_project2.mp4" width="100%" controls>
-  Your browser does not support the video tag.
-</video>
-
+[Click here to watch the Langsam 418 VR Demo Video](https://mailuc-my.sharepoint.com/:v:/g/personal/vakanisa_mail_uc_edu/IQDSGPXi99OnQ5QgrkSeJmhpAbRnNDU2L2C7_u2qjcq_3XM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Sghh6K)
 
 
 
