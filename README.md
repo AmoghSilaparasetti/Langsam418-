@@ -17,6 +17,8 @@ The virtual environment is a high-fidelity recreation of the Langsam 418 space, 
 
 - **Prop & Detail Assets**: To enhance immersion, everyday items such as backpacks and peripheral props were sourced from community repositories including SketchFab and Thingiverse.
 
+<img width="501" height="256" alt="amogh_Vr" src="https://github.com/user-attachments/assets/c0ee8e23-03cd-45b6-8f82-e19235e0a5cb" />
+
 - **Interface Elements**: The information boards and screens that display layout data utilize SVG assets designed in Figma for crisp, scalable visual fidelity within the Unity engine.
 <img width="501" height="256" alt="VR_documentation_Photo" src="https://github.com/user-attachments/assets/1900192a-d608-4dcc-b2d2-b981b6bbdf4c" />
 
@@ -66,4 +68,10 @@ One of our primary hurdles was the discrepancy between documentation and impleme
 
 ## Demo Video 
 
-- Watch the 2-3 minute demonstration of the Langsam 418 VR Simulator below. This video includes a voiceover walkthrough of the room, a preview of the different layout designs, and a look at the locomotion system in action.
+- Watch a demonstration of the Langsam 418 VR Simulator below. This video includes a voiceover walkthrough of the room, a preview of the different layout designs, and a look at the locomotion system in action along with the props we have designed. 
+
+
+
+
+
+
