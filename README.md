@@ -41,3 +41,24 @@ Due to the significant size of high-resolution VR assets and specific Meta Quest
 - **To Run**: Download the full project repository.
 
 - **Requirements**: Unity 2022.3 LTS (or later) and the Meta XR All-in-One SDK.
+
+## Challenges and Future Work 
+
+### Technical Obstacles
+
+One of our primary hurdles was the discrepancy between documentation and implementation. Several features advertised as "plug-and-play" within the Meta SDK did not function as intended when following official tutorials. This required significant troubleshooting and manual overrides. This experience highlighted the importance of deep platform knowledge when working with rapidly evolving XR toolkits.
+
+### Future Development
+
+- **Raycast Interaction:** We plan to implement an in-room menu system that allows users to swap layouts on the fly using a raycast pointer.
+
+- **Physics & Tangibility**: We aim to add physics interactions to the props (backpacks, laptops), making the space feel more tangible and "lived-in."
+
+- **Expanded Interactivity**: Moving from static previews to allowing the user to pick up and move furniture in real-time within the VR environment.
+
+## AI Usage and Collaboration 
+- **AI Integration**: Large Language Models were used as a research tool to understand the underlying architecture of the Meta SDK and to debug specific API calls. No AI-generated code was used in the final production of the application scripts; all logic was manually authored by the team.
+
+## Demo Video 
+
+- Watch the 2-3 minute demonstration of the Langsam 418 VR Simulator below. This video includes a voiceover walkthrough of the room, a preview of the different layout designs, and a look at the locomotion system in action.
